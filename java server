@@ -1,0 +1,20 @@
+dacstudent@dacstudent-Invalid-entry-length-0-DMI-table-is-broken-Stop:~cd Downloads
+
+dacstudent@dacstudent-Invalid-entry-length-0-DMI-table-is-broken-Stop:~/Downloads$ sudo ssh -i "linuxexam2.pem" ubuntu@ec2-3-15-5-108.us-east-2.compute.amazonaws.com
+
+ubuntu@ip-172-31-8-97:~$ sudo apt-get update
+
+ubuntu@ip-172-31-8-97:~$ sudo apt-get install default-jre
+
+ubuntu@ip-172-31-8-97:~$ sudo apt-get install default-jdk
+
+
+program=
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+ 
+ java helloworld.java
+

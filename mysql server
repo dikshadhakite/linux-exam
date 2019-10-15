@@ -1,0 +1,16 @@
+dacstudent@dacstudent-Invalid-entry-length-0-DMI-table-is-broken-Stop:~$ cd Downloads
+
+dacstudent@dacstudent-Invalid-entry-length-0-DMI-table-is-broken-Stop:~/Downloads$sudo ssh -i "linuxexam.pem" ubuntu@ec2-18-220-121-94.us-east-2.compute.amazon
+
+ubuntu@ip-172-31-1-77:~$sudo apt-get update
+
+ubuntu@ip-172-31-1-77:~$ sudo apt-get install mysql-server
+
+ubuntu@ip-172-31-1-77:~$sudo mysql
+
+ubuntu@ip-172-31-1-77:~$use db test
+
+ubuntu@ip-172-31-1-77:~$create table diksha(
+command varchar(20));
+
+
